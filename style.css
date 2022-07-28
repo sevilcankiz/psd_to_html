@@ -12,12 +12,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: ;
+    align-items: space-;
 
 }
 
 #section2 {
-    justify-content: center space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 500px;
