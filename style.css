@@ -1,24 +1,31 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+} 
+header {
+    background: #554d77;
+    color: #fff;
 }
-
-
-nav, #section2 {
-    
-    
-}
-
-nav {
+header > nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: ;
-
+    gap: 25px;
 }
+section{
 
-#section2 {
-    justify-content: center space-between;
-    align-items: center;
+    padding: 100px 0 130px;
+}
+#section2, #section4, #section6 {
+    background: url('images/bgk-header.png');
+    background-size: cover;
+    color: #fff;
+}
+section > p, section > h1, section > h2, section > button  {
+    max-width: 774px;
     text-align: center;
-    width: 500px;
+    margin: 0 auto;
 }
+#section2 > button  { display: block; }
+#section2 > p   { padding: 50px 0; }
